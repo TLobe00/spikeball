@@ -1,0 +1,36 @@
+{
+  "name": "bvaccel/shopify-resources",
+  "description": "PHP Wrappers for Shopify Resources",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Don Herre",
+      "email": "don.herre@bvaccel.com",
+      "homepage": "https://bvaccel.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Andrew Clinton",
+      "email": "andrew.clinton@bvaccel.com",
+      "homepage": "https://bvaccel.com",
+      "role": "Developer"
+    }
+  ],
+  "require-dev": {
+    "mockery/mockery": "^1.0",
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "BVAccel\\ShopifyResources\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

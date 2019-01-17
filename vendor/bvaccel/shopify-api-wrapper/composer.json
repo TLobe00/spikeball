@@ -1,0 +1,54 @@
+{
+    "name": "bvaccel/shopify-api-wrapper",
+    "description": "Core Shopify API Wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don Herre",
+            "email": "don.herre@bvaccel.com",
+            "homepage": "https://bvaccel.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Andrew Clinton",
+            "email": "andrew.clinton@bvaccel.com",
+            "homepage": "https://bvaccel.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Andrew Mauney",
+            "email": "andrew.e.mauney@gmail.com",
+            "homepage": "https://bvaccel.com",
+            "role": "Immoral Support"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "php-http/mock-client": "^1.1",
+        "bvaccel/shopify-resources": "^0.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BVAccel\\ShopifyApiWrapper\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.bvaccelapps.com"
+        }
+    ]
+}
